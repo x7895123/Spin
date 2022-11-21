@@ -1,0 +1,26 @@
+{
+    "Connections": [
+        {
+            "Name": "aqua",
+            "Host": "192.168.90.221",
+            "AmqpPort": 5673,
+            "WebPort": 15673,
+            "VirtualHost": "/",
+            "Username": "aqua",
+            "Password": "aquajkfmg7pdo5",
+            "ReconnectInterval": 5,
+            "RequestedHeartBeat": 30
+        },
+        {
+            "Name": "arena",
+            "Host": "192.168.90.221",
+            "AmqpPort": 5672,
+            "WebPort": 15672,
+            "VirtualHost": "/",
+            "Username": "admin",
+            "Password": "rabbitjkfmg7pdo5",
+            "ReconnectInterval": 5,
+            "RequestedHeartBeat": 30
+        }
+    ]
+}
